@@ -13,7 +13,7 @@ dependencyResolutionManagement {
 ## Step 2. Add the dependency build.gradle(:app)
 ```gradle
 dependencies {
-	        implementation 'com.github.sahariyarahamad:TestLibrary:-SNAPSHOT'
+	        implementation 'com.github.sahariyarahamad:TestLibrary:$VERSION_CODE'
 	}
 ```
 # Current Version
