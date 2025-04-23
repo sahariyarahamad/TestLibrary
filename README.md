@@ -19,4 +19,12 @@ dependencies {
 # Current Version
 [![GitHub release_version](https://img.shields.io/github/v/release/sahariyarahamad/mediacaptionapp)](https://github.com/sahariyarahamad/TestLibrary/releases)
 
+## Step 3. Past those code where you want to show toast
+```java
+new TestLibrary(this)
+                .showToast("toast from test library", 0);
+```
+> **NOTE**: `0` for show toast less then 1 second and
+      `1` for show more then 1 second
+
 # Author Sahariyar Ahamad
